@@ -1,0 +1,23 @@
+@keyframes progressBar {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.progress-bar {
+  width: 100px;
+  height: 10px;
+  margin: 0 auto;
+  border: 2px solid black;
+}
+
+.progress-bar > div {
+  animation: progressBar;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  height: 100%;
+  background: grey;
+}
