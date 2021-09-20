@@ -1,0 +1,7 @@
+.settler {
+  display: grid;
+  grid-template-columns: auto auto 1fr auto;
+  grid-gap: 1ch;
+  width: 100%;
+  grid-auto-flow: column;
+}
